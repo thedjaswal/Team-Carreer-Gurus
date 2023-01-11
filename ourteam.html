@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="shortcut icon" type="x-icon" href="images/shortcut icon.png">
+    <link rel="stylesheet" href="teamstyle.css">
+    <script src="https://kit.fontawesome.com/3222bd988f.js" crossorigin="anonymous"></script>
+<body>
+
+    <title>Ourteam</title>
+    
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YWZN50KWRK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YWZN50KWRK');
+</script>
+
+
+</head>
+<body> 
+    <section class="sub-header">
+        <nav>
+         <a href="index.html"><img src="images/lg.png"></a>
+         <div class="nav-links" id="navLinks">
+            
+            <i class ="fa fa-times" onclick="hideMenu()"> </i>
+             <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a href="ourteam.html">OUR TEAM</a></li>
+                
+                
+                 <li><a href="services.html">SERVICES</a></li>
+                 <li><a href="contact.html">CONTACT US</a></li>
+                 <li><a href="parteners.html">OUR PARTNERS</a></li>
+                    
+                   
+               
+               
+   
+             </ul>
+            </div>
+            <i class ="fa fa-bars" onclick="showMenu()"> </i>
+        </nav>
+     
+     
+       <h3> TEAMWORK MAKES THE DREAMWORK.</h3>
+     
+    </section>
+
+
+
+      <!---Our Team content-->
+      <section>
+       <div class="head"><h1>Our Team</h1></div> 
+       
+       <div class="marq"><marquee behavior="scroll" direction="left"
+        scrollamount="8.5" scrolldelay="1"
+           onmouseover="this.stop();"
+           onmouseout="this.start();"></div> 
+        <div class="image-container">
+        
+          <div class="image"  onclick="fetch_info(0)"> <img src="images/gs avtr.jpg"></div>
+          <div class="image" onclick="fetch_info(1)"> <img src="images/anoop avtr.jpg"></div>
+        
+          <div class="image" onclick="fetch_info(2)"> <img src="images/richa avtr.jpg"></div>
+          <div class="image" onclick="fetch_info(3)"> <img src="images/rohit avtr.jpg"></div>
+          <div class="image" onclick="fetch_info(4)"> <img src="images/deepak.png"></div>
+          <div class="image" onclick="fetch_info(5)"> <img src="images/pankaj avtr.jpg"></div>
+          <div class="image" onclick="fetch_info(6)"> <img src="images/abhay.jpg"></div>
+          
+
+
+
+        </div>
+        </marquee>
+       
+      
+        <div class="info-container">
+          <img  class="profile" id="profile" src="images/gs new.jpg">
+          <div class="info">
+            <h2 class="name" id="name"> Gulshan Sandhu </h2>
+            <h3 class="status" id="status"> Founder & Chairman</h3>
+            <p class="about" id="about">
+              Gulshan Sandhu is a result-driven individual who has over 12 years of experience in education industry. He is an MBA by his academic qualification and Heading Training  Placement Department at Baddi University. He is an entrepreneur and owns Sandhu Dairy Farms in Himachal Pradesh. Recently, he is being awarded by Young Achiever Award from  Chief Minister of Himachal Pradesh.
+        
+            </p>
+      
+          </div>
+          
+        </div>
+       
+
+        <script>
+          function fetch_info(i){
+            
+            let profile=["images/gs new.jpg","images/anoop new.jpg","images/richa 2.jpg","images/rohit new 1.jpg","images/deepak.png","images/pankaj.jpg","images/abhay.jpg "];
+            let name=["Gulshan Sandhu","Anoop Sharma","Richa","Rohit Kumar","Deepak Jaswal","Pankaj","Abhay"];
+            let status=["Founder & Chairman","CEO","Senior Consultant","IT Manager","IT Manager","IT Manager","Multimedia Manager"];
+            let content=[" is a result-driven individual who has over 12 years of experience in education industry. He is an MBA by his academic qualification and Heading Training  Placement Department at Baddi University. He is an entrepreneur and owns Sandhu Dairy Farms in Himachal Pradesh. Recently, he is being awarded by Young Achiever Award from  Chief Minister of Himachal Pradesh.",
+            "   an experienced professional and an entrepreneur.Before starting his own venture of Punjabi Food Plaza, Mr. Sharma has served various MNC’ like Procter & Gamble, Mahindra Logistics and Reckitt Benckiser in field of production, quality, operations, warehousing and logistics in a span period of less than 13 years. Coming from basic background to high level strategic mindset and the tremendous zeal to shape the future of youth using corporate experience. ",
+            " born & brought up in Sundernagar.Completed schooling from DAV ACC Barmana & Diploma from Govt Polytechnic Sundernagar. Currently pursuing my Btech in CSE from Baddi University.She also worked as Software Engineer for official mobile testing team of india at Samsung with 7+ yrs of experience as QA.",
+            " is a young professional who is currently pursing Graduation in Computer Science. He is an aspirant who have proven abilitity to adapt in both self-starting and collaborative environment while staying focused on achieving high-quality result under strict deadlines. Still learning and  working in a Team Career Gurus as an IT manager.",
+            " is a student of Baddi University Pursuing B.Tech in C.S.E ,have good technical and communication skills and also , a good team player Working with Team Career Gurus as an IT Manager.",
+            " is  a student of baddi university pursuing B.Tech in Computer Science and working in a Team Career Gurus as an IT manager.",
+            " is a young professional pursuing Electrical Engineering at Baddi University of Emerging Science and Technology. He is a team player with good technical and communication skills. Along with academic learning, he also works as a professional photographer and video content creator. ",]
+      
+      document.getElementById("profile").src=profile[i];
+      document.getElementById("name").innerHTML=name[i];
+      document.getElementById("status").innerHTML=status[i];
+      document.getElementById("about").innerHTML=name[i]+content[i];
+          }
+        </script>
+        </section>
+        <!-- JAVA SCRIPT FOR TOGGLE MENU-->
+        
+        <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right="0";
+          }
+          function hideMenu(){
+              navLinks.style.right="-200px";
+          }
+                
+      </script>
+        
+
+
+
+
+
+
+    <!----Footer--> 
+    <section class="footer">
+      <h3>About Us</h3>
+      <p> <b> This initiative of bringing the recruitment industry, schools and colleges under one shelter will be sum total combination to give <br>the wings to youth and take them to the greatest height of their career.</b>
+     </p>
+     <div class="icons">
+      <a href="http://www.fb.com/teamcareergurus">          <i class="fa fa-facebook"> </i></a>
+      <a href="https://wa.me/916230635782">                 <i class="fa fa-whatsapp"> </i></a>
+      <a href="http://www.linkedin.com/in/career-gurus">    <i class="fa fa-linkedin"> </i></a>
+      <a href="https://mobile.twitter.com/teamcareergurus"> <i class="fa fa-twitter"> </i></a>
+      <a href="https://www.instagram.com/teamcareergurus/"> <i class="fa fa-instagram"> </i></a>
+     </div>
+     <h2> Designed By <span>Rohit Kumar <a href="https://instagram.com/rohit_pandher?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a> | Deepak Jaswal <a href=https://instagram.com/thedjaswal?utm_medium=copy_link><i class="fa fa-instagram"></i></a> | Pankaj <a href="https://www.instagram.com/pnkj____chauhan/"><i class="fa fa-instagram"></i></a>.</span> </h2>
+
+<!----Copyrigths-->
+
+    <div class="footer-bottom">
+        <h2>Copyright &copy;2022 | All Rights Reserved <span>CareerGurus</span></h2>
+        </div>
+    
+</section>
+
+    
+

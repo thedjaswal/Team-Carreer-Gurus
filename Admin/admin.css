@@ -1,0 +1,38 @@
+input[type=submit] {
+  background-color: blue;
+  border:1.5px solid white;
+  border-radius:20px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 3px 1.5px;
+  cursor: pointer;
+}
+table, th, td {
+border:1px solid black;
+border-collapse: collapse;
+}
+
+* {
+color: #2b2b2b;
+font-family: "Roboto Condensed";
+}
+
+th {
+text-align: left;
+color: #4679bd;
+}
+
+tbody > tr:nth-of-type(even) {
+background-color: #daeaff;
+}
+
+button {
+cursor: pointer;
+margin-top: 1rem;
+}
+@media(max-width: 700px){
+    table {
+width:35%;
+}
+}

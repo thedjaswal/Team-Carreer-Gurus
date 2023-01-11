@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Popins', sans-serif;
+}
+
+/* --- our team logo */
+.sub-header{
+  height: 50vh;
+  width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.sub-header h3{
+  padding-top: 70px;
+  font-size: 41px;
+  color:white;
+  font-style: oblique;
+
+}
+.head h1{
+  margin-top: 0px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.image-container{
+  margin-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.image{
+  width: 160px;
+  height: 160px;
+  background: rgba(33, 224, 238, 0.384);
+  margin: 2px 50px;
+  border-radius: 50%;
+  border: 3px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(36, 31, 31);
+
+}
+
+.image:hover{
+  border: 2px solid rgb(5, 14, 34);
+
+}
+
+.image-container img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.info-container{
+  width: 920px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(81, 83, 88, 0),rgba(42, 47, 66, 0)),url(images/f2.jpg);
+  margin: 0 auto;
+  margin-top: 90px;
+  border-radius: 25px;
+  border: 1px solid black;
+
+}
+.info-container:hover{
+  box-shadow: 0 0 20px 0px rgba(216, 45, 73, 0.842);
+  background-image: linear-gradient(rgba(15, 15, 17, 0.822),rgba(20, 21, 26, 0.678)),url(images/scol.jpg);
+}
+
+
+
+.profile{
+  width: 250px;
+  height: 325px;
+  border-radius: 25px;
+  padding: 10px;
+ margin: 0;
+}
+.name{
+  margin-top: 50px;
+  padding: 0px 10px;
+  text-align: left;
+  font-size: 50px;
+  line-height: 50px;
+  color: white;
+
+}
+.status{
+  padding: 10px 20px;
+  text-align: left;
+  line-height: 20px;
+  margin: 0;
+  font-size: 22px;
+}
+.about{
+  height: 240px;
+  padding: 0px 20px;
+ font-weight: 600;
+
+}
+
+
+@media(max-width: 700px){
+  .sub-header{
+    width: 735px;
+    height: 350px;
+  }
+  
+.marq{
+  width: 190%;
+  padding-top: 20px;
+}
+  .image-container img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+
+}
+.image{
+  width: 100px;
+  height: 100px;
+  background: rgba(33, 224, 238, 0.384);
+  margin: 3px 50px;
+  margin-top: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(36, 31, 31);
+
+}
+
+.info-container{
+  width: 765px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(81, 83, 88, 0),rgba(42, 47, 66, 0)),url(images/f2.jpg);
+  
+  margin-top: 40px;
+ 
+  margin-left: 10px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 50px rgb(145,1,blue);
+
+
+}
+.info-container:hover{
+  box-shadow: 0 0 20px 0px rgba(41, 39, 146, 0.842);
+  background-image: linear-gradient(rgba(15, 15, 17, 0.822),rgba(20, 21, 26, 0.678)),url(images/scol.jpg);
+}
+.info-container p{
+  font-size: 25.5px;
+  line-height: 31.5px;
+}
+.profile{
+  width: 200px;
+  height: 385px;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 0;
+}
+.name{
+  margin-top: 70px;
+  padding: 0px 10px;
+  text-align: left;
+  font-size: 35px;
+  line-height: 50px;
+
+}
+.about{
+  height: 200px;
+  padding: 0px 20px;
+  margin-bottom:170px;
+  
+
+}
+.status{
+  line-height: 25px;
+}
+.footer{
+  width: 780px;
+}
+.head{
+  height: 20px;
+  width: 100%;
+}
+.head h1{
+  font-size: 18px;
+ text-align: auto;
+ margin-left: 285px;
+}
+.footer-bottom{
+  align-items: center;
+  padding-left: 150px;
+}
+
+
+ 
+}
+
+
+

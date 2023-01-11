@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/3222bd988f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="x-icon" href="images/shortcut icon.png">
+    <title>Contact Us</title>
+    
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YWZN50KWRK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YWZN50KWRK');
+</script>
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+         <a href="index.html"><img src="images/lg.png"></a>
+         <div class="nav-links" id="navLinks">
+            
+            <i class ="fa fa-times" onclick="hideMenu()"> </i>
+             <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a href="newteam.html">OUR TEAM</a></li>
+                 
+                 <li><a href="services.html">SERVICES</a></li>
+                 <li><a href="contact.html">CONTACT US</a></li>
+                 <li><a href="parteners.html">OUR PARTNERS</a>
+                    
+                   
+                
+               
+   
+                
+                 
+             </ul>
+            </div>
+            <i class ="fa fa-bars" onclick="showMenu()"> </i>
+        </nav>
+     <div class="qot"><p><i>"Right guidance at right time can change your entire life."</i></p></div>
+    </section>
+
+
+      <!---Contact Us -->
+ 
+
+ <section class="contact-us">
+   <div class="hdi"><h1>Contact Us</h1></div> 
+     <div class="row">
+         <div class="contact-col">
+             <div> 
+                 <i class="fa fa-home"></i>
+                <span>
+                    <h5> Baddi University of Emerging Sci. & Tech. </h5>
+                    <p>  Baddi University of Emerging Sciences and Technology Makhnumajra,<br>
+                        Distt, Baddi, Himachal Pradesh 173205</p>
+                    </span>
+            </div>
+            <div> 
+                <i class="fa fa-phone"></i>
+               <span>
+                   <h5>+917986507874</h5>
+                   <p> Call Us</p>
+                   </span>
+           </div>
+           <div>
+                <i class="fa fa-envelope-o"></i>
+               <span>
+                   <h5>info@teamcareergurus.in</h5>
+                   <p> Email your Query.</p>
+                   </span>
+           </div>
+         </div>
+         <div class="contact-col"></div>
+         <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="nem"><h3>Get In Touch</h3></div>
+            <input type="text" id="name" placeholder="Enter your Name" required>
+            <input type="email" id="email" placeholder="Enter your Email Id" required>
+            <input type="text" id="phone" placeholder="Enter your Phone no." required>
+            <textarea id="message" rows="8" placeholder=" How can we help you...?"></textarea>
+            <button type="submit" class="hero-button">Send </button>
+
+        </form>
+         
+     </div>
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+     <script>
+         function sendEmail(){
+             Email.send({
+           Host : "smtp.gmail.com",
+           Username : "dee7807132091@gmail.com",
+           Password : "Dee@140601",
+           To : 'teamcareergurus@gmail.com',
+           From : document.getElementById("email").value,
+          Subject : "New Contact form enquiry",
+          Body : "Name:"+document.getElementById("name").value
+              +"<br> Email:"+document.getElementById("email").value
+              +"<br> Phone No.:"+document.getElementById("phone").value
+              +"<br> Message:"+document.getElementById("message").value
+ }).then(        
+   message => alert("Message Sent Sucessfully  We are connecting with you shortly.")
+ );
+         }
+     </script>
+
+     </section>
+
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13686.72281359506!2d76.780271!3d30.951481!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba00ae03b4b94946!2sBaddi%20University%20of%20Emerging%20Sci.%20%26%20Tech.!5e0!3m2!1sen!2sin!4v1646573361016!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!----Footer--> 
+    <section class="footer">
+        <h3>About Us</h3>
+        <p> <b> This initiative of bringing the recruitment industry, schools and colleges under one shelter will be sum total combination to give <br>the wings to youth and take them to the greatest height of their career.</b>
+       </p>
+       <div class="icons">
+        <a href="http://www.fb.com/teamcareergurus">          <i class="fa fa-facebook" style="font-size: 23.5px;"> </i></a>
+        <a href="https://wa.me/916230635782">                 <i class="fa fa-whatsapp" style="font-size: 23.5px;"> </i></a>
+        <a href="http://www.linkedin.com/in/career-gurus">    <i class="fa fa-linkedin" style="font-size: 23.5px;"> </i></a>
+        <a href="https://mobile.twitter.com/teamcareergurus"> <i class="fa fa-twitter" style="font-size: 23.5px;"> </i></a>
+        <a href="https://www.instagram.com/teamcareergurus/"> <i class="fa fa-instagram" style="font-size: 23.5px;"> </i></a>
+       </div>
+       <h2> Designed By <span>Rohit Kumar <a href="https://instagram.com/rohit_pandher?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a> | Deepak Jaswal <a href=https://instagram.com/thedjaswal?utm_medium=copy_link><i class="fa fa-instagram"></i></a> | Pankaj <a href="https://www.instagram.com/pnkj____chauhan/"><i class="fa fa-instagram"></i></a>.</span> </h2>
+
+  <!----Copyrigths-->
+  
+      <div class="footer-bottom">
+          <h2>Copyright &copy;2022 | All Rights Reserved <span>TeamCareerGurus</span></h2>
+          </div>
+      
+  </section>
+
+    
+
+ <!---Using javscript for toggle  menu bar in small devices-->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+          
+</script>
+</body>
+</html>
